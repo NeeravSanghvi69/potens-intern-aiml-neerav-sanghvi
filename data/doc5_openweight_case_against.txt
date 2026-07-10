@@ -1,0 +1,13 @@
+# The Case Against Unrestricted Open-Weight Release
+
+## Section 1: Safety Fine-Tuning Is Trivially Removable
+Critics of open-weight release argue that safety fine-tuning applied on top of a base model is a thin layer that can be removed cheaply. Published research has demonstrated that a small number of fine-tuning steps, achievable on a single consumer GPU within hours and at a cost of a few hundred dollars, can strip most refusal behavior from an openly released model while leaving its general capability intact. This directly contradicts the claim that stripping safety training requires significant resources.
+
+## Section 2: No Recall Mechanism
+Once weights are public, there is no way to patch a discovered vulnerability across all downstream copies. A closed, API-served model can have a flaw fixed centrally within hours. An open-weight model with a discovered flaw remains permanently vulnerable in every already-downloaded copy, regardless of what the original publisher does afterward. This asymmetry is treated as a decisive argument against release for any model with meaningful dual-use capability.
+
+## Section 3: Scrutiny Benefits Are Overstated
+While external red-teaming does surface some issues, critics argue that the same adversarial testing capacity used to find and report vulnerabilities can equally be used to find and exploit them before disclosure. There is no guarantee that a discovering party reports responsibly rather than using or selling the exploit, and open release provides no mechanism to distinguish between the two in advance.
+
+## Section 4: Conclusion
+On balance, this view holds that for models above a meaningful capability threshold, the permanence and unpatchability of an open release outweighs any distributed-scrutiny benefit, and release decisions should default toward closed or gated access unless a specific case can be made otherwise.

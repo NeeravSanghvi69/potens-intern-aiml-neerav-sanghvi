@@ -1,0 +1,16 @@
+# NIST AI Risk Management Framework — Plain Language Summary
+
+## Section 1: Purpose
+The NIST AI Risk Management Framework (AI RMF) is a voluntary framework intended to help organizations manage risks associated with designing, developing, and deploying AI systems. Unlike the EU AI Act, it does not carry legal penalties; adoption is a matter of organizational choice, though many enterprise procurement processes now reference it as a baseline.
+
+## Section 2: The Four Core Functions
+The framework organizes risk management into four functions: Govern, Map, Measure, and Manage. Govern establishes organizational culture and accountability structures for AI risk. Map identifies context and potential impacts of a specific AI system. Measure uses quantitative and qualitative tools to assess identified risks. Manage allocates resources to treat risks based on the Measure function's findings.
+
+## Section 3: Trustworthy AI Characteristics
+NIST defines trustworthy AI as systems that are valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed. No single characteristic is treated as sufficient on its own; the framework explicitly states that trade-offs between characteristics are expected and must be documented, not eliminated.
+
+## Section 4: Open-Weight Models
+The framework treats model release strategy as a risk-management decision rather than a fixed rule. It notes that broader release of model weights can increase the diversity of red-teaming and external scrutiny, which may surface vulnerabilities faster than closed testing alone. At the same time, it states that organizations should assess whether a released model could be modified to remove safety fine-tuning, and weigh that risk against the scrutiny benefit before deciding on a release strategy. The framework stops short of recommending for or against open release in general, framing it instead as context-dependent.
+
+## Section 5: Profiles
+Organizations are encouraged to develop "profiles" — tailored implementations of the framework for a specific use case, sector, or system lifecycle stage. NIST published a Generative AI Profile as a companion document addressing risks specific to generative systems, including confabulation (a term NIST prefers over "hallucination") and data memorization.

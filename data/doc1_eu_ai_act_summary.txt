@@ -1,0 +1,16 @@
+# EU AI Act — Plain Language Summary
+
+## Section 1: Risk Tiers
+The EU AI Act classifies AI systems into four risk categories: unacceptable risk, high risk, limited risk, and minimal risk. Unacceptable risk systems, such as social scoring by governments and real-time biometric surveillance in public spaces for law enforcement (with narrow exceptions), are banned outright. High-risk systems include AI used in hiring, credit scoring, law enforcement, and critical infrastructure. These require conformity assessments, risk management systems, and human oversight before deployment.
+
+## Section 2: Obligations for General-Purpose AI Models
+Providers of general-purpose AI models, including large language models, must maintain technical documentation, provide information to downstream deployers, and comply with EU copyright law. Models deemed to pose "systemic risk" — generally those trained above a defined compute threshold — face additional obligations: adversarial testing, incident reporting to the European Commission, and cybersecurity safeguards.
+
+## Section 3: Open-Weight Models
+The Act provides a partial exemption for open-weight models released under free and open-source licenses. These models are exempt from some transparency obligations unless they qualify as systemic-risk models. The rationale given is that open release enables public scrutiny, which the Act treats as a partial substitute for centralized oversight. Critics of this exemption argue that once weights are public, no downstream safeguard can be enforced, making the openness itself a risk multiplier rather than a mitigant.
+
+## Section 4: Enforcement and Penalties
+National market surveillance authorities enforce the Act, with an EU-level AI Office coordinating on general-purpose model obligations. Penalties for violations scale with company revenue, reaching up to 7% of global annual turnover for the most serious violations, such as deploying banned systems.
+
+## Section 5: Timeline
+The Act entered into force in August 2024, with prohibitions on unacceptable-risk systems applying first, followed by phased obligations for general-purpose and high-risk systems over the following two years.

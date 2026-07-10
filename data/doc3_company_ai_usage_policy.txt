@@ -1,0 +1,16 @@
+# Potens Internal AI Usage Policy (Sample)
+
+## Section 1: Approved Tools
+Employees and interns may use approved AI assistants — currently Claude, GitHub Copilot, and Cursor — for code generation, documentation drafting, and research summarization. Use of unapproved tools on company code or customer data requires written sign-off from the engineering lead.
+
+## Section 2: Disclosure Requirement
+Any deliverable produced with meaningful AI assistance must include a disclosure noting which tool was used and for what portion of the work. This applies to code, written reports, and design assets alike. Non-disclosure, if discovered, is treated as a policy violation regardless of the quality of the underlying work.
+
+## Section 3: Customer Data Handling
+No customer data, whether identifiable or aggregated, may be pasted into a third-party AI tool's web interface unless that tool is covered under a data processing agreement with Potens. API-based access through approved, contracted integrations is permitted under the standard data handling policy.
+
+## Section 4: Model Weight Release
+Potens does not release model weights publicly for any internally trained model, including fine-tuned variants of open-source base models. The internal position is that once weights leave the company's infrastructure, the company loses the ability to enforce usage restrictions, audit downstream behavior, or revoke access if a vulnerability is discovered. This is treated as a hard constraint, not a case-by-case risk assessment.
+
+## Section 5: Review Before Deployment
+Any AI-assisted code that touches production systems must pass the same code review bar as human-written code. AI assistance does not reduce review rigor; if anything, reviewers are asked to check AI-suggested code more carefully for subtle logic errors and unnecessary dependencies.

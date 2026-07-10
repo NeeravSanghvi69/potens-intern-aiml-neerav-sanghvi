@@ -1,0 +1,13 @@
+# The Case for Open-Weight Model Release
+
+## Section 1: Scrutiny at Scale
+Proponents of open-weight release argue that publishing model weights subjects a system to a scale of adversarial testing no internal red team can match. Thousands of independent researchers probing a model for jailbreaks, biases, and failure modes surfaces problems faster than a closed testing cycle measured in weeks. Several widely used safety techniques, including specific jailbreak patches, were first identified by external researchers working with open weights.
+
+## Section 2: Reducing Concentration of Power
+A second argument is structural rather than technical: if only a small number of well-funded labs can access capable models, those labs accumulate outsized influence over what AI is used for and how it is priced. Open-weight release is framed as a counterweight to this concentration, allowing smaller companies, academic researchers, and developers in lower-income countries to build on frontier capability without paying rent to a handful of API providers.
+
+## Section 3: Safety Fine-Tuning Is Not Truly Removable Without Cost
+Advocates further argue that removing safety fine-tuning from an open-weight model is neither free nor invisible. It requires meaningful compute and technical skill, and the resulting stripped model is typically easy to distinguish from the original release, which limits large-scale misuse relative to the fear that any bad actor can trivially strip safety training in minutes.
+
+## Section 4: Conclusion
+On balance, this view holds that the transparency and distributed-scrutiny benefits of open release outweigh the risk that some fraction of users will misuse the weights, particularly for models below the frontier capability level.
